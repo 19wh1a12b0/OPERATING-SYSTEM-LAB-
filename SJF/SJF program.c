@@ -67,4 +67,4 @@
     printf("Average Finish Time=%f\n",avg_ft);
     return 0;
 }
-© 2021 GitHub, Inc.
+
