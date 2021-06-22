@@ -1,0 +1,25 @@
+AIM: To solve Producer-Consumer problem.
+
+Solution for Producer:
+
+do{
+
+wait(empty);
+wait(mutex);
+
+signal(mutex);
+signal(full);
+
+}while(true)
+
+Solution for Consumer:
+
+do{
+
+wait(full);
+wait(mutex);
+
+signal(mutex);
+signal(empty);
+
+}while(true)
